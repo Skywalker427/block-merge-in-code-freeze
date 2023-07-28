@@ -139,7 +139,7 @@ describe("Inputs", () => {
     expect(inputs).toHaveProperty("commitStatusDescriptionWithSuccess", "The PR could be merged")
     expect(inputs).toHaveProperty(
       "commitStatusDescriptionWhileBlocking",
-      "The PR can't be merged based on time, which is due to your organization's policy",
+      "Merging is currently blocked because of code freeze.",
     )
     expect(inputs).toHaveProperty("commitStatusURL", null)
     expect(inputs).toHaveProperty("rawBaseBranches", [])
@@ -235,7 +235,7 @@ describe("Inputs", () => {
     expect(inputs).toHaveProperty("commitStatusDescriptionWithSuccess", "The PR could be merged")
     expect(inputs).toHaveProperty(
       "commitStatusDescriptionWhileBlocking",
-      "The PR can't be merged based on time, which is due to your organization's policy",
+      "Merging is currently blocked because of code freeze.",
     )
     expect(inputs).toHaveProperty("commitStatusURL", null)
   })
@@ -299,7 +299,7 @@ describe("Inputs", () => {
     expect(inputs).toHaveProperty("commitStatusDescriptionWithSuccess", "The PR could be merged")
     expect(inputs).toHaveProperty(
       "commitStatusDescriptionWhileBlocking",
-      "The PR can't be merged based on time, which is due to your organization's policy",
+      "Merging is currently blocked because of code freeze.",
     )
     expect(inputs).toHaveProperty("commitStatusURL", null)
     expect(inputs).toHaveProperty("rawBaseBranches", ["main"])
@@ -403,7 +403,7 @@ describe("Inputs", () => {
     expect(inputs).toHaveProperty("commitStatusDescriptionWithSuccess", "The PR could be merged")
     expect(inputs).toHaveProperty(
       "commitStatusDescriptionWhileBlocking",
-      "The PR can't be merged based on time, which is due to your organization's policy",
+      "Merging is currently blocked because of code freeze.",
     )
     expect(inputs).toHaveProperty("commitStatusURL", null)
     expect(inputs).toHaveProperty("rawBaseBranches", ["main"])
@@ -507,7 +507,7 @@ describe("Inputs", () => {
     expect(inputs).toHaveProperty("commitStatusDescriptionWithSuccess", "The PR could be merged")
     expect(inputs).toHaveProperty(
       "commitStatusDescriptionWhileBlocking",
-      "The PR can't be merged based on time, which is due to your organization's policy",
+      "Merging is currently blocked because of code freeze.",
     )
     expect(inputs).toHaveProperty("commitStatusURL", null)
     expect(inputs).toHaveProperty("rawBaseBranches", ["develop", "feature/special"])

@@ -34,7 +34,7 @@ export class Inputs {
     )
     this.commitStatusDescriptionWhileBlocking = stringOr(
       getInput("commit-status-description-while-blocking"),
-      "The PR can't be merged based on time, which is due to your organization's policy",
+      "Merging is currently blocked because of code freeze.",
     )
     // NOTE: If the string is empty, we're not sure where we should refer to. So, `||` is appropriate here instead of `??`.
     this.commitStatusURL = getInput("commit-status-url") || null
